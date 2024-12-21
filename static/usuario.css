@@ -1,0 +1,62 @@
+header{
+    background-color: indigo;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h1{
+        color:rgb(255, 255, 255);
+       
+        font-size:2.2em;
+       
+    }
+}
+
+main{
+    width:60%;
+    margin:1rem auto;
+}
+
+main img{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: none;
+}
+
+
+main article{
+    width:100%;
+    margin:auto;
+    text-align: justify;
+    line-height: 1.25;
+    font-size: 1.2em;
+
+}
+main figure{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+main h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+footer{
+    background-color: indigo;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 1rem;
+    & p{
+        color: white;
+        width: 80%;
+        margin: auto;
+        font-style: italic
+    }
+}

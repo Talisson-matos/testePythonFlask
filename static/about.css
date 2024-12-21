@@ -1,0 +1,59 @@
+header{
+    background-color: indigo;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & h1{
+        color:rgb(255, 255, 255);
+       
+        font-size:2.2em;
+       
+    }
+}
+
+main{
+    width:80%;
+    margin:1rem auto;
+    display: flex;
+    flex-direction: column
+   
+}
+
+main div{
+    margin: 1rem 0;
+    border: 1px solid indigo;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(76, 0, 130, 0.301)
+}
+
+
+
+main legend{
+    text-transform: capitalize;
+    font-size: 1.5em
+}
+
+main article{
+    margin-top: 1rem;
+    text-align: justify
+}
+
+
+footer{
+    background-color: indigo;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 1rem;
+    & p{
+        color: white;
+        width: 80%;
+        margin: auto;
+        font-style: italic
+    }
+}
